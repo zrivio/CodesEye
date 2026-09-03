@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>News | Iskolar ng Bayan</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .news-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .news-card {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+        }
+
+        .news-card h2 {
+            margin-top: 0;
+        }
+
+        .date {
+            font-size: 14px;
+            color: #777;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>News & Updates</h1>
+        <p>Stay updated with the latest news and announcements.</p>
+    </header>
+
+    <main>
+
+        <div class="news-container">
+
+            <article class="news-card">
+                <p class="date">September 2026</p>
+                <h2>Scholarship Application Updates</h2>
+                <p>
+                    Get the latest information about scholarship applications,
+                    requirements, and important deadlines.
+                </p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="news-card">
+                <p class="date">September 2026</p>
+                <h2>Student Opportunities</h2>
+                <p>
+                    Discover scholarship programs, student activities,
+                    and other opportunities available for students.
+                </p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="news-card">
+                <p class="date">September 2026</p>
+                <h2>Important Announcements</h2>
+                <p>
+                    Check the latest announcements and reminders
+                    from Iskolar ng Bayan.
+                </p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
